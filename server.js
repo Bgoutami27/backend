@@ -273,7 +273,7 @@ app.get("/analytics", async (req, res) => {
 
 // -------------------- SERVE FRONTEND --------------------
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "../frontend/Ecommerce.html"));
+  res.sendFile(path.join(__dirname, "../frontend/index.html"));
 });
 
 // -------------------- START SERVER --------------------
